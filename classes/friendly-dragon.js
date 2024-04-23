@@ -53,4 +53,4 @@ class FriendlyDragon extends Dragon {
 
 
 
-module.export = FriendlyDragon;
+module.exports = FriendlyDragon;

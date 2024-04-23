@@ -3,8 +3,6 @@ const FriendlyDragon = require('./classes/friendly-dragon');
 const EvilDragon = require(`./classes/evil-dragon`);
 const Dragon = require('./classes/dragon')
 
-
-
 let smaug = new EvilDragon("Smaug", "black", [
   "take over your mountain kingdom",
   "steal all your dwarven gold",
@@ -19,8 +17,19 @@ let falkor = new FriendlyDragon("Falkor", "white",
 "Bastian"
 );
 
-let allDragons = Dragon.getDragons(smaug, falkor);
-console.log(allDragons);
+let allDragons = Dragon.getDragons(falkor, smaug);
+
+// console.log(falkor);
+// falkor.hasLifeGoals();
+// console.log(falkor.breathesFire());
+// console.log(falkor.helpsPeople());
+
+// console.log(smaug);
+// smaug.dontInviteThemOverForDinner();
+// console.log(smaug.breathesFire());
+// console.log(smaug.burnsNemesis());
+
+// console.log(allDragons);
 /****************************************************************************/
 /******************* DO NOT EDIT CODE BELOW THIS LINE ***********************/
 
