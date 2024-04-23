@@ -12,8 +12,6 @@ class Dragon {
   static getDragons(...dragons) {
     return dragons.map(dragon => dragon.name);
   }
-
-  
 }
 
 // let dragon1 = new Dragon('Timmy Turner', 'pink');
