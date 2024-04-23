@@ -51,11 +51,6 @@ class FriendlyDragon extends Dragon {
 //   console.log(toothless.helpsPeople());
 //   console.log(toothless.breathesFire());
 
-let falkor = new FriendlyDragon("Falkor", "white", 
-["save Atreyu from the swamp",
- "save Atreyu from the Nothing",
- "scare the local bullies into a dumpster"],
-"Bastian"
-)
+
 
 module.export = FriendlyDragon;

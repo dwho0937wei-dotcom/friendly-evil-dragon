@@ -46,11 +46,6 @@ class EvilDragon extends Dragon {
 //   console.log(drogon.breathesFire());
 //   console.log(drogon.burnsNemesis());
 
-let smaug = new EvilDragon("Smaug", "black", [
-    "take over your mountain kingdom",
-    "steal all your dwarven gold",
-    "burn down your floating village"
-],
-"Dwarf King");
+
 
 module.export = EvilDragon;
