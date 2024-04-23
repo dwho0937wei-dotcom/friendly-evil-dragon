@@ -14,11 +14,11 @@ class Dragon {
   }
 }
 
-let dragon1 = new Dragon('Timmy Turner', 'pink');
-let dragon2 = new Dragon("Puff", "green");
-let dragon3 = new Dragon("Toothless", "black");
+// let dragon1 = new Dragon('Timmy Turner', 'pink');
+// let dragon2 = new Dragon("Puff", "green");
+// let dragon3 = new Dragon("Toothless", "black");
 
-console.log( Dragon.getDragons(dragon1, dragon2,dragon3) );
+// console.log( Dragon.getDragons(dragon1, dragon2,dragon3) );
 
 /****************************************************************************/
 /******************* DO NOT EDIT CODE BELOW THIS LINE ***********************/

@@ -7,6 +7,49 @@ class FriendlyDragon extends Dragon {
         this.lifeGoals = lifeGoals;
         this.friend = friend;
     }
+
+    hasLifeGoals() {
+        this.lifeGoals.forEach(goal => console.log(`${this.name} likes to ${goal}`))
+    }
+
+    helpsPeople() {
+        return `${this.name} helps their friend ${this.friend}`;
+    }
 }
-const friendly1 = new FriendlyDragon('Timmy Turner', 'pink', 'fight', 'Puff');
-console.log(friendly1);
+// const friendly1 = new FriendlyDragon('Timmy Turner', 'pink', 'fight', 'Jimmy Neutron');
+// console.log(friendly1);
+
+// friendly1.hasLifeGoals();
+// console.log(friendly1.helpsPeople());
+
+// const puff = new FriendlyDragon(
+//     "Puff",
+//     "green",
+//     [
+//       "live by the sea",
+//       "frolick in the autumn mist",
+//       "help small children"
+//     ],
+//     "Jackie Paper"
+//   );
+// console.log(puff);
+// console.log(puff.breathesFire()); //Friendly dragons can still breathe fire!
+// puff.hasLifeGoals();
+// console.log(puff.helpsPeople());
+
+// const toothless = new FriendlyDragon(
+//     "Toothless",
+//     "black",
+//     [
+//       "save the town of Burke",
+//       "fly with a kid on his back",
+//       "hang out with Vikings"
+//     ],
+//     "Hiccup"
+//   );
+//   console.log(toothless); toothless.hasLifeGoals();
+//   console.log(toothless.helpsPeople());
+//   console.log(toothless.breathesFire());
+
+
+module.export = FriendlyDragon;
