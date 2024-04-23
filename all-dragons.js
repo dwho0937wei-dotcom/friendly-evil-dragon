@@ -1,4 +1,7 @@
 // Your code here 
+const FriendlyDragon = require('./classes/friendly-dragon');
+const EvilDragon = require(`./classes/evil-dragon`);
+
 
 
 /****************************************************************************/
